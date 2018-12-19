@@ -3,21 +3,26 @@
 // to the describe block like so describe.only("basic addition")
 // dont forget to remove it and add it to the next test
 
-function addition() {
+function addition(a,b) {
   // returns the sum of both numbers
+  return(a+b)
 }
 
-function multiplication() {
+function multiplication(a,b) {
   //returns the multiplied sum of two values
+  return a*b
 }
-function division() {
+function division(a,b) {
   // returns a divided sum of two values
+  return(a/b)
 }
-function subtraction() {
+function subtraction(a,b) {
   // returns a subtracted sum of two values
+  return a-b
 }
-function modulus() {
+function modulus(num1,num2) {
   //returns the remainder
+  return num1%num2
 }
 
 function lowerThan() {

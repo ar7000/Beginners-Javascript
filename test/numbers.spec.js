@@ -53,7 +53,7 @@ describe("modulus operations", () => {
     expect(modulus(6, 3)).to.equal(0);
   });
 });
-describe("less than", () => {
+describe.only("less than", () => {
   it("returns a lower than value", () => {
     expect(lower(3, 4)).to.be.true;
     expect(lower(7, 11)).to.be.true;
